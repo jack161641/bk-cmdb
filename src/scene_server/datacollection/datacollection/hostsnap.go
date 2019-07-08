@@ -315,6 +315,14 @@ func parseSetter(val *gjson.Result, innerIP, outerIP string) map[string]interfac
 		platform = strings.Replace(platform, "Microsoft ", "", 1)
 		osname = fmt.Sprintf("%s", platform)
 		ostype = common.HostOSTypeEnumWindows
+	case "mac":
+		version = strings.Replace(version, ".x86_64", "", 1)
+		version = strings.Replace(version, ".i386", "", 1)
+		osname = fmt.Sprintf("%s %s", ostype, platform)
+		ostype = common.HostOSTypeEnumMAC
+	case "hpunix":
+		osname = fmt.Sprintf("%s", platform)
+		ostype = common.HostOSTypeEnumHPUNIX
 	default:
 		osname = fmt.Sprintf("%s", platform)
 	}

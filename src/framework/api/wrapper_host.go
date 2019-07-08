@@ -13,12 +13,13 @@
 package api
 
 import (
-	"fmt"
-
+	"configcenter/src/common/util"
 	"configcenter/src/framework/common"
+	"configcenter/src/framework/core/errors"
 	"configcenter/src/framework/core/output/module/inst"
 	"configcenter/src/framework/core/output/module/model"
 	"configcenter/src/framework/core/types"
+	"fmt"
 )
 
 // HostIteratorWrapper the host iterator wrapper
@@ -481,6 +482,24 @@ func (cli *HostWrapper) GetName() (string, error) {
 }
 
 // SetServiceTerm set the service term for the host
+func (cli *HostWrapper) SetServiceTerm(serviceTerm string) error {
+	result := util.IsDate(serviceTerm)
+	if !result {
+		return errors.New("params  is not valid")
+	}
+	return cli.host.SetValue(fieldServiceTerm, serviceTerm)
+}
+
+// GetServiceTerm get the service term
+func (cli *HostWrapper) GetServiceTerm() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldServiceTerm),nil
+}
+// SetServiceTerm set the service term for the host
+/*
 func (cli *HostWrapper) SetServiceTerm(serviceTerm int64) error {
 	return cli.host.SetValue(fieldServiceTerm, serviceTerm)
 }
@@ -493,7 +512,7 @@ func (cli *HostWrapper) GetServiceTerm() (int, error) {
 	}
 	return vals.Int(fieldServiceTerm)
 }
-
+*/
 // SetComment set the comment for the host
 func (cli *HostWrapper) SetComment(comment string) error {
 	return cli.host.SetValue(fieldComment, comment)
@@ -562,4 +581,102 @@ func (cli *HostWrapper) GetOsVersion() (string, error) {
 		return "", err
 	}
 	return vals.String(fieldOsVersion), nil
+}
+
+// SetOsVersion set the Maintenance Manufacturer for the host
+func (cli *HostWrapper) SetMaintenance(maintenance string) error {
+	return cli.host.SetValue(fieldMaintenance, maintenance)
+}
+
+// GetOsVersion get the Maintenance Manufacturer
+func (cli *HostWrapper) GetMaintenance() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldMaintenance), nil
+}
+
+// SetOsVersion set the idc for the host
+func (cli *HostWrapper) SetIDC(idc string) error {
+	return cli.host.SetValue(fieldIDC, idc)
+}
+
+// GetOsVersion get the idc
+func (cli *HostWrapper) GetIDC() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldIDC), nil
+}
+
+// SetOsVersion set the Rack number for the host
+func (cli *HostWrapper) SetRackNum(racknum string) error {
+	return cli.host.SetValue(fieldRackNum, racknum)
+}
+
+// GetOsVersion get the Rack number
+func (cli *HostWrapper) GetRackNum() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldRackNum), nil
+}
+
+// SetOsVersion set the U number for the host
+func (cli *HostWrapper) SetUNum(unum string) error {
+	return cli.host.SetValue(fieldUnum, unum)
+}
+
+// GetOsVersion get the U number
+func (cli *HostWrapper) GetUNum() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldUnum), nil
+}
+
+// SetOsVersion set the pow1 for the host
+func (cli *HostWrapper) SetPow1(pow1 string) error {
+	return cli.host.SetValue(fieldPow1, pow1)
+}
+
+// GetOsVersion get the pow1
+func (cli *HostWrapper) GetPow1() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldPow1), nil
+}
+
+// SetOsVersion set the pow2 for the host
+func (cli *HostWrapper) SetPow2(pow2 string) error {
+	return cli.host.SetValue(fieldPow2, pow2)
+}
+
+// GetOsVersion get the pow2
+func (cli *HostWrapper) GetPow2() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldPow2), nil
+}
+
+// SetOsVersion set the Asets for the host
+func (cli *HostWrapper) SetAsets(asset string) error {
+	return cli.host.SetValue(fieldAsset, asset)
+}
+
+// GetOsVersion get the Asets
+func (cli *HostWrapper) GetAsets() (string, error) {
+	vals, err := cli.host.GetValues()
+	if nil != err {
+		return "", err
+	}
+	return vals.String(fieldAsset), nil
 }

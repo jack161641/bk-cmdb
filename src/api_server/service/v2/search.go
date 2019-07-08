@@ -418,7 +418,7 @@ func (s *Service) getHostsByProperty(req *restful.Request, resp *restful.Respons
 		for _, setEnv := range setEnvArrTemp {
 			setEnvV3, ok := defs.SetEnvMap[setEnv]
 			if !ok {
-				msg := fmt.Sprintf("SetEnviType not in 1,2,3, it is %s", setEnv)
+				msg := fmt.Sprintf("SetEnviType not in 1,2,3,4 it is %s", setEnv)
 				blog.Errorf("SetEnviType bad value, %s,input:%v,rid:%s", msg, formData, srvData.rid)
 				converter.RespFailV2(common.CCErrAPIServerV2DirectErr, defErr.Errorf(common.CCErrAPIServerV2DirectErr, msg).Error(), resp)
 				return

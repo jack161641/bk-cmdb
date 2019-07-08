@@ -1,7 +1,8 @@
 {
     "biz_property_life_cycle_enum_1": "testing",
-    "biz_property_life_cycle_enum_2": "online",
-    "biz_property_life_cycle_enum_3": "offline",
+    "biz_property_life_cycle_enum_2": "developer",
+    "biz_property_life_cycle_enum_3": "preprd",
+    "biz_property_life_cycle_enum_3": "prductor",
 
     "biz_property_language_enum_1": "Chinese",
     "biz_property_language_enum_2": "English",
@@ -332,6 +333,10 @@
 	"host_property_bk_province_name_enum_710000" : "Taiwan",
 	"host_property_bk_province_name_enum_810000" : "Hong Kong",
 	"host_property_bk_province_name_enum_820000" : "Macau",
+    "host_property_bk_province_name_enum_910000" : "Jinqiao",
+    "host_property_bk_province_name_enum_920000" : "Anting",
+    "host_property_bk_province_name_enum_930000" : "Nanjing ",
+
   "host_property_bk_isp_name_enum_0": "Others",
   "host_property_bk_isp_name_enum_1": "China Telecom",
   "host_property_bk_isp_name_enum_2": "China Unicom",

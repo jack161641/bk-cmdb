@@ -66,6 +66,12 @@ type HostIdentifier struct {
 	Disk            int64                       `json:"bk_disk" bson:"bk_disk"`                 // 磁盘容量
 	HostIdentModule map[string]*HostIdentModule `json:"associations" bson:"associations"`
 	Process         []HostIdentProcess          `json:"process" bson:"process"`
+	Supplier     	string						`json:"bk_supplier" bson:"bk_supplier"`   	    //维保厂商
+	IDC				string						`json:"bk_idc" bson:"bk_idc"`         		    //所在IDC
+	RackNum		    string						`json:"bk_racknum" bson:"bk_racknum"`           //所在机柜
+	UNum            string						`json:"bk_unum" bson:"bk_unum"`                 //部署U位
+	Pow1            string						`json:"bk_pow_1" bson:"bk_pow_1"`               //电源1
+	Pow2            string						`json:"bk_pow_2" bson:"bk_pow_2"`               //电源2
 }
 
 type HostIdentProcess struct {

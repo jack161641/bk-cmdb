@@ -850,6 +850,9 @@ const (
 	HostOSTypeEnumLinux   = "1"
 	HostOSTypeEnumWindows = "2"
 	HostOSTypeEnumAIX     = "3"
+	HostOSTypeEnumMAC     = "4"
+	HostOSTypeEnumHPUNIX     = "5"
+
 )
 
 const (

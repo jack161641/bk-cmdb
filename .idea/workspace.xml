@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="03694ab4-ad68-45fd-b0b3-c2be22a163ab" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/language/default/enum.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/language/default/enum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/language/default/property.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/language/default/property.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/language/en/enum.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/language/en/enum.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_server/logics/v2/common/converter/converter.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_server/logics/v2/common/converter/converter.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_server/logics/v2/common/defs/defs.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_server/logics/v2/common/defs/defs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_server/service/v2/search.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_server/service/v2/search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api_server/service/v2/set.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/api_server/service/v2/set.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/definitions.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/definitions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/common/metadata/inst.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/common/metadata/inst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/api/type.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/api/type.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/framework/api/wrapper_host.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/framework/api/wrapper_host.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/objAttDescData.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/objAttDescData.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene_server/datacollection/datacollection/hostsnap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene_server/datacollection/datacollection/hostsnap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene_server/datacollection/datacollection/hostsnap/hostsnap.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene_server/datacollection/datacollection/hostsnap/hostsnap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene_server/event_server/identifier/hostcache.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene_server/event_server/identifier/hostcache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scene_server/event_server/identifier/identifier.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/scene_server/event_server/identifier/identifier.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/core.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-450" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/types.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/association.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1530" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/auditlog.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/compatiblev2.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/graphics.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/identifier.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/privilege_role.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-693" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/types/types.go">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/privilege/role.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1752" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/topo/inst</find>
+      <find>bk_obj_id</find>
+      <find>app</find>
+      <find>bk_property_id</find>
+      <find>obj_type</find>
+      <find>topo</find>
+      <find>/host/search</find>
+      <find>/host/v3</find>
+      <find>search</find>
+      <find>获取人员</find>
+      <find>usercustom/user/search</find>
+      <find>user/search</find>
+      <find>userapi</find>
+      <find>/hosts/search</find>
+      <find>/app/search</find>
+      <find>field</find>
+      <find>pow1</find>
+      <find>/hosts/import</find>
+      <find>bk_os_name</find>
+      <find>OSName</find>
+      <find>BKOSTypeField</find>
+      <find>bk_os_type</find>
+      <find>OSType</find>
+      <find>bk_cloud_id</find>
+      <find>bk_province_name</find>
+      <find>蓝鲸</find>
+      <find>/topo/privilege</find>
+      <find>user_name</find>
+      <find>/privilege/group</find>
+      <find>/privilege/group/%s/search</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>维保截止日期</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\healthz</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\hostcontroller</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\hostserver</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\objcontroller</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\proccontroller</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\procserver</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\rest</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\synchronize</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\toposerver</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery\util</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\framework</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\thirdpartyclient</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\ui</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\storage</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\source_controller\hostcontroller</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\scene_server\topo_server</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\source_controller\objectcontroller</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\web_server</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\common</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\scene_server\host_server</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\apimachinery</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\source_controller</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\source_controller\coreservice</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\common\metadata</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\scene_server</dir>
+      <dir>C:\Users\20180307\src\configcenter\src\api_server</dir>
+      <dir>C:\Users\20180307\src\configcenter\docs</dir>
+      <dir>C:\Users\20180307\src\configcenter</dir>
+      <dir>C:\Users\20180307\src\configcenter\docs\apidoc</dir>
+      <dir>C:\Users\20180307\src\configcenter\src</dir>
+    </dirStrings>
+  </component>
+  <component name="GOROOT" path="C:\Go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="zxq_master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/service/device.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/synchronize_server/service/synchronize.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/service/service_business_initfunc.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/logics/collector.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/service/unique.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/logics/common.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/logics/logics.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/event.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/admin_server/upgrader/x18.12.12.03/pkg.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/service/health.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/app/server.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/app/options/options.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/service/privilege_role.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/service/service.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/service/subscription.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/types/const.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/service/graphics.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/admin_server/upgrader/x18.12.12.03/fixAssociationTypeName.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/service/object.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/app/server.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/app/options/options.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/distribution/callback.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/distribution/reconclier.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/datacollection.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/topo_server/core/compatiblev2/set.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/distribution/distribution.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/distribution/start.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/distribution/handle_event.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/distribution/transaction.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/service/service.go" />
+        <option value="$PROJECT_DIR$/resources/language/default/enum.json" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/datacollection/hostsnap.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/datacollection/datacollection/hostsnap/hostsnap.go" />
+        <option value="$PROJECT_DIR$/resources/language/default/property.json" />
+        <option value="$PROJECT_DIR$/resources/language/en/enum.json" />
+        <option value="$PROJECT_DIR$/src/source_controller/coreservice/core/instances/instance_validate.go" />
+        <option value="$PROJECT_DIR$/src/source_controller/coreservice/core/instances/validator_attr.go" />
+        <option value="$PROJECT_DIR$/src/api_server/logics/v2/common/converter/converter.go" />
+        <option value="$PROJECT_DIR$/src/framework/api/wrapper_host.go" />
+        <option value="$PROJECT_DIR$/src/common/definitions.go" />
+        <option value="$PROJECT_DIR$/src/api_server/logics/v2/common/defs/defs.go" />
+        <option value="$PROJECT_DIR$/src/api_server/service/v2/search.go" />
+        <option value="$PROJECT_DIR$/src/api_server/service/v2/set.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/objAttDescData.go" />
+        <option value="$PROJECT_DIR$/src/framework/api/type.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/identifier/hostcache.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/event_server/identifier/identifier.go" />
+        <option value="$PROJECT_DIR$/src/common/metadata/inst.go" />
+        <option value="$PROJECT_DIR$/src/scene_server/host_server/service/service.go" />
+        <option value="$PROJECT_DIR$/src/source_controller/hostcontroller/service/service.go" />
+        <option value="$PROJECT_DIR$/docs/apidoc/host_search.md" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="15" />
+    <option name="y" value="38" />
+    <option name="width" value="1940" />
+    <option name="height" value="968" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="apidoc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apimachinery" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apimachinery" type="462c0819:PsiDirectoryNode" />
+              <item name="objcontroller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apimachinery" type="462c0819:PsiDirectoryNode" />
+              <item name="objcontroller" type="462c0819:PsiDirectoryNode" />
+              <item name="privilege" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apimachinery" type="462c0819:PsiDirectoryNode" />
+              <item name="toposerver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="apimachinery" type="462c0819:PsiDirectoryNode" />
+              <item name="toposerver" type="462c0819:PsiDirectoryNode" />
+              <item name="openapi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="condition" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene_server" type="462c0819:PsiDirectoryNode" />
+              <item name="topo_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene_server" type="462c0819:PsiDirectoryNode" />
+              <item name="topo_server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene_server" type="462c0819:PsiDirectoryNode" />
+              <item name="topo_server" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene_server" type="462c0819:PsiDirectoryNode" />
+              <item name="topo_server" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="types" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scene_server" type="462c0819:PsiDirectoryNode" />
+              <item name="topo_server" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="configcenter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="configcenter" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="source_controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aliyun-log-jaeger-0.0.3" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build configcenter/src">
+    <configuration name="go build configcenter" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="configcenter" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="configcenter" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build configcenter/src" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="configcenter" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="configcenter/src" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build configcenter/src" />
+        <item itemvalue="Go Build.go build configcenter" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21268657" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.2156013" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.032502707" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/object_biz.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="473">
+            <caret line="197" column="19" selection-start-line="197" selection-start-column="19" selection-end-line="197" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/object_set.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="223">
+            <caret line="202" column="7" lean-forward="true" selection-start-line="202" selection-start-column="7" selection-end-line="202" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/object_model.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2366">
+            <caret line="133" column="12" selection-start-line="133" selection-start-column="12" selection-end-line="133" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/object_module.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1773">
+            <caret line="219" column="25" selection-start-line="219" selection-start-column="25" selection-end-line="219" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/host_property.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/x18.12.12.01/add_aix_property.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="56" column="51" selection-start-line="56" selection-start-column="51" selection-end-line="56" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/addDefauleApp.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/addPlatData.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/addPresetObjects.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/addSystemData.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/createtable.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2911" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/pkg.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/upgradeBKBiz.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/event_server/identifier/identifier.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="432" column="13" selection-start-line="432" selection-start-column="13" selection-end-line="432" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/event_server/identifier/hostcache.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="34" column="86" lean-forward="true" selection-start-line="34" selection-start-column="86" selection-end-line="34" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/host_update.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/host_relation.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="190">
+            <caret line="10" column="9" lean-forward="true" selection-start-line="8" selection-end-line="18" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/admin_server/upgrader/v3.0.8/objAttDescData.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="585" column="12" selection-start-line="585" selection-start-column="10" selection-end-line="585" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/metadata/inst.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="29" column="45" lean-forward="true" selection-start-line="29" selection-start-column="45" selection-end-line="29" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/host_search.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="891">
+            <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/user_costum.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="834">
+            <caret line="51" column="48" selection-start-line="51" selection-start-column="38" selection-end-line="51" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/rest/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/rest/request.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1230">
+          <caret line="368" column="27" lean-forward="true" selection-start-line="368" selection-start-column="27" selection-end-line="368" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/apidoc/user_privilege.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="449">
+            <caret line="264" column="44" lean-forward="true" selection-start-line="264" selection-start-column="29" selection-end-line="264" selection-end-column="44" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="20" column="67" lean-forward="true" selection-start-line="20" selection-start-column="67" selection-end-line="20" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/privilege.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="45" column="72" lean-forward="true" selection-start-line="45" selection-start-column="72" selection-end-line="45" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/definitions.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="410" column="4" selection-start-line="410" selection-start-column="4" selection-end-line="410" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/mapstr/mapstr.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/common/condition/condition.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="206" column="41" lean-forward="true" selection-start-line="206" selection-start-column="41" selection-end-line="206" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/service_initfunc.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="169" column="148" lean-forward="true" selection-start-line="169" selection-start-column="148" selection-end-line="169" selection-end-column="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/privilege_group.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="706">
+          <caret line="60" column="68" lean-forward="true" selection-start-line="60" selection-start-column="68" selection-end-line="60" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/objcontroller/privilege/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/objcontroller/privilege/privilege.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="66" column="54" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/toposerver/privilege/api.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/toposerver/privilege/privilege.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="66" column="33" selection-start-line="66" selection-start-column="33" selection-end-line="66" selection-end-column="33" />
+          <folding>
+            <element signature="e#709#786#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/apimachinery/toposerver/openapi/openapi.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3404" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/privilege/group.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4075">
+          <caret line="150" column="67" selection-start-line="150" selection-start-column="67" selection-end-line="150" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/privilege/privilege.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="129" column="77" lean-forward="true" selection-start-line="129" selection-start-column="77" selection-end-line="129" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/app/options/options.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-519" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/app/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1041" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/privilege/role.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1752" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/types/types.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/core.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/core/types.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/privilege_role.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-693" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/association.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1530" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/auditlog.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/compatiblev2.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/graphics.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scene_server/topo_server/service/identifier.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="30" column="29" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

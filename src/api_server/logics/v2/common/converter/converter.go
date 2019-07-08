@@ -797,6 +797,12 @@ func convMapInterface(data map[string]interface{}) map[string]interface{} {
 				case common.HostOSTypeEnumWindows:
 					mapItem[key] = "windows"
 					mapItem["OSType"] = "windows"
+				case common.HostOSTypeEnumMAC:
+					mapItem[key] = "mac"
+					mapItem["OSType"] = "mac"
+				case common.HostOSTypeEnumHPUNIX:
+					mapItem[key] = "hpunix"
+					mapItem["OSType"] = "hpunix"
 				default:
 					mapItem[key] = realVal
 					mapItem["OSType"] = realVal
@@ -1329,6 +1335,7 @@ func getFieldsMap(objType string) map[string]string {
 		"face_stop_cmd":    "KillCmd",
 		"timeout":          "OpTimeout",
 		"auto_time_gap":    "AutoTimeGap",
+
 	}
 	return fieldsMap
 }
@@ -1339,6 +1346,10 @@ func getOSTypeByEnumID(enumID string) (OSType string) {
 		OSType = "linux"
 	case common.HostOSTypeEnumWindows:
 		OSType = "windows"
+	case common.HostOSTypeEnumMAC:
+		OSType = "mac"
+	case common.HostOSTypeEnumHPUNIX:
+		OSType = "hpunix"
 	default:
 		OSType = enumID
 	}

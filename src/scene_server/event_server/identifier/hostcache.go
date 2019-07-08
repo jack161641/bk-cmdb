@@ -41,6 +41,12 @@ type HostIdentifier struct {
 	Disk            int64              `json:"bk_disk" bson:"bk_disk"`
 	Module          map[string]*Module `json:"associations" bson:"associations"`
 	Process         []Process          `json:"process" bson:"process"`
+	Supplier    	string			   `json:"bk_supplier" bson:"bk_supplier"`
+	IDC				string			   `json:"bk_idc" bson:"bk_idc"`
+	RackNum		    string			   `json:"bk_racknum" bson:"bk_racknum"`
+	UNum            string			   `json:"bk_unum" bson:"bk_unum"`
+	Pow1            string			   `json:"bk_pow_1" bson:"bk_pow_1"`
+	Pow2            string			   `json:"bk_pow_2" bson:"bk_pow_2"`
 }
 
 type PorcessSorter []Process

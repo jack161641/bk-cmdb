@@ -133,6 +133,7 @@ func (s *Service) getsetproperty(req *restful.Request, resp *restful.Response) {
 			common.KvMap{"Property": "1", "value": "1"},
 			common.KvMap{"Property": "2", "value": "2"},
 			common.KvMap{"Property": "3", "value": "3"},
+			common.KvMap{"Property": "4", "value": "4"},
 		},
 		/*"option" : [
 		    {

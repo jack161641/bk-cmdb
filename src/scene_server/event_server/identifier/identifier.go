@@ -393,6 +393,18 @@ func (i *Inst) set(key string, value interface{}) {
 			i.ident.CPU, err = util.GetInt64ByInterface(value)
 		case "bk_disk":
 			i.ident.Disk, err = util.GetInt64ByInterface(value)
+		case "bk_supplier":
+			i.ident.Supplier = getString(value)
+		case "bk_idc":
+			i.ident.IDC = getString(value)
+		case "bk_racknum":
+			i.ident.RackNum = getString(value)
+		case "bk_unum":
+			i.ident.UNum = getString(value)
+		case "bk_pow_1":
+			i.ident.Pow1 = getString(value)
+		case "bk_pow_2":
+			i.ident.Pow2 = getString(value)
 		}
 		if nil != err {
 			blog.Errorf("key %s	convert error %s", key, err.Error())
@@ -437,6 +449,12 @@ func NewHostIdentifier(m map[string]interface{}) *HostIdentifier {
 		blog.Errorf("%s is not integer, %+v ", "bk_disk", m)
 	}
 	ident.Module = map[string]*Module{}
+	ident.Supplier = getString(m["bk_supplier"])
+	ident.IDC = getString(m["bk_idc"])
+	ident.RackNum = getString(m["bk_racknum"])
+	ident.UNum = getString(m["bk_unum"])
+	ident.Pow1 = getString(m["bk_pow_1"])
+	ident.Pow2 = getString(m["bk_pow_2"])
 	return &ident
 }
 

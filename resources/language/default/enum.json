@@ -1,7 +1,8 @@
 {
-    "biz_property_life_cycle_enum_1": "测试中",
-    "biz_property_life_cycle_enum_2": "已上线",
-    "biz_property_life_cycle_enum_3": "停运",
+    "biz_property_life_cycle_enum_1": "测试",
+    "biz_property_life_cycle_enum_2": "开发",
+    "biz_property_life_cycle_enum_3": "预生产",
+    "biz_property_life_cycle_enum_4": "生产",
     "biz_property_language_enum_1": "中文",
     "biz_property_language_enum_2": "English",
     "set_property_bk_service_status_enum_1": "开放",
